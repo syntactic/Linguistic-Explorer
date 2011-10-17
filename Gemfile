@@ -45,7 +45,7 @@ gem 'crewait'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development, :test, :pg_test do
-  gem 'ruby-debug19'
+#  gem 'ruby-debug19'
 
   # Use mongrel as the web server
   gem 'mongrel', "1.2.0.pre2"
@@ -54,7 +54,7 @@ group :development, :test, :pg_test do
   gem 'rspec-rails', "2.5.0"
   gem 'rspec_rails3_validation_expectations', '0.0.2', :git => 'git://github.com/bosh/rspec_rails3_validation_expectations.git'
 
-  gem 'ruby-debug19'
+ # gem 'ruby-debug19'
   gem 'factory_girl_rails'
   gem "cucumber", "1.0.0"
   gem "database_cleaner", "0.6.7"
